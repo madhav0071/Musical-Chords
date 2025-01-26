@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - Spotify</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="assets/login-favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="conatiner">
+        <div class="nav">
+            <img src="assets/login-logo.png" alt="" class="logo"> 
+        </div>
+        <div class="mainbox">
+            <div class="inbox">
+                <h1 class="roboto-bold">Sign up to start listening</h1>
+                <div class="formtxt">
+                    <label for="usern"><span class="roboto-medium">Email address</span></label>
+                </div>
+                <input type="text" name="usern" id="username" class="formitem roboto-medium" placeholder="name@domain.com">
+                <p><a href="" class="phno-signup roboto-medium">Use phone number instead.</a></p>
+                <input type="button" value="Next" class="submit" onclick="window.open('index.html', '_self')">
+
+                <hr class="hr-text" data-content="or">
+
+                <button class="btn">
+                    <span class="google"></span><span class="txt roboto-medium" onclick="window.open('index.html', '_self')">Continue with Google</span>
+                </button>
+                <button class="btn">
+                    <span class="fb"></span><span class="txt roboto-medium" onclick="window.open('index.html', '_self')">Continue with Facebook</span>
+                </button>
+                <button class="btn">
+                    <span class="apple"></span><span class="txt roboto-medium" onclick="window.open('index.html', '_self')">Continue with Apple</span>
+                </button>
+
+                <hr class="space">
+
+                <div class="signup">
+                    <span class="roboto-medium">Already have an account? &nbsp;</span><a href="login.html" class="hvr roboto-medium">Log in here.</a>
+                </div>
+                <footer>
+                    <span class="roboto-regular">
+                        This site is protected by reCAPTCHA and the Google <a href="">Privacy Policy</a> and <a href="">Terms of Service</a> apply.
+                    </span>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

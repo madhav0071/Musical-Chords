@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.nav {
+    /* background: red; */
+    padding: 1rem;
+}
+
+.logo {
+    width: 7rem;
+}
+
+.mainbox {
+    display: grid;
+    justify-content: center;
+}
+
+.inbox {
+    /* background: rgb(0, 0, 0); */
+    width:22.5rem;
+    padding: 1rem;
+}
+
+h1{
+    color: white;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+.formitem {
+    display: inline-flex;
+    margin: 10px auto;
+    border: 1px solid #878787;
+    background-color: transparent;
+    border-radius: 3px;
+    inline-size: 100%;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    padding: 1rem 1rem;
+}
+
+.formtxt {
+    color: white;
+}
+
+.phno-signup {
+    color: #1bc657;
+}
+
+
+.submit {
+    margin: 15px auto;
+    border: 1px solid #878787;
+    background-color: #1ed760;
+    border-radius: 500px;
+    text-align: center;
+    inline-size: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+    padding: 1rem 1rem;
+}
+
+.submit:hover {
+    background-color: #1bc657;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    cursor: pointer;
+}
+
+.hr-text {
+    border: 0;
+    font-size: 1rem;
+    height: 1.5em;
+    line-height: 1em;
+    position: relative;
+    text-align: center;
+    margin: 1.5rem 0rem;
+}
+
+.hr-text::before {
+    content: "";
+    background: rgb(170, 170, 170);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+}
+
+.hr-text::after {
+    background-color: black;
+    color: white;
+    content: attr(data-content);
+    line-height: 1.5em;
+    padding: 0 7px;
+    position: relative;
+}
+
+
+.google {
+    display: inline-block;
+    background: url("https://accounts.scdn.co/sso/images/new-google-icon.72fd940a229bc94cf9484a3320b3dccb.svg") center center no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.apple {
+    display: inline-block;
+    background: url("https://accounts.scdn.co/sso/images/new-apple-icon.e356139ea90852da2e60f1ff738f3cbb.svg") center center no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.fb {
+    display: inline-block;
+    background: url("https://accounts.scdn.co/sso/images/new-facebook-icon.eae8e1b6256f7ccf01cf81913254e70b.svg") center center no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.btn {
+    display: inline-flex;
+    margin: 4px auto;
+    border: 1px solid #878787;
+    background-color: transparent;
+    border-radius: 500px;
+    text-align: center;
+    inline-size: 100%;
+    font-weight: 700;
+    font-size: 1rem;
+    align-items: center;
+    color: white;
+    padding-inline: 1.9rem;
+}
+
+.btn:hover, .formitem {
+    border-color: white;
+    cursor: pointer;
+}
+
+.btn > .txt {
+    letter-spacing: normal;
+    padding: 0.8rem 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.space {
+    margin: 2rem 0rem;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.signup > a{
+    color: white;
+}
+
+.signup > span {
+    color: #a7a7a7;
+}
+
+footer {
+    text-align: center;
+    color: #a7a7a7;
+    padding: 2rem;
+    font-size: 0.6875rem;
+}
+footer > span > a {
+    color: #a7a7a7;
+}

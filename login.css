@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#2a2a2a 0%, #010101 100%);
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* --------------------------------Navbar----------------------------------------- */
+
+.header {
+    background-color: #121212;
+    padding: 2rem 0rem 2rem 3.188rem;
+}
+
+.navlogo{
+    height: 2.2rem;
+}
+
+
+/* --------------------------------Main-Form----------------------------------------- */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+    background-color: #121212;
+    color: white;
+    border-radius: 8px;
+    width: 50%;
+    margin: 2rem;
+}
+
+.continuebtn {
+    display: flex;
+    flex-direction: column;
+}
+
+.continuebtn > h1 {
+    font-size: 2.7rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+
+.google {
+    display: inline-block;
+    background: url("https://accounts.scdn.co/sso/images/new-google-icon.72fd940a229bc94cf9484a3320b3dccb.svg") center center no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.apple {
+    display: inline-block;
+    background: url("https://accounts.scdn.co/sso/images/new-apple-icon.e356139ea90852da2e60f1ff738f3cbb.svg") center center no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.fb {
+    display: inline-block;
+    background: url("https://accounts.scdn.co/sso/images/new-facebook-icon.eae8e1b6256f7ccf01cf81913254e70b.svg") center center no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.btn {
+    display: inline-flex;
+    margin: 4px auto;
+    border: 1px solid #878787;
+    background-color: transparent;
+    border-radius: 500px;
+    text-align: center;
+    inline-size: 100%;
+    font-weight: 700;
+    font-size: 1rem;
+    align-items: center;
+    color: white;
+    padding-inline: 1.9rem;
+}
+
+.btn:hover, .formitem {
+    border-color: white;
+}
+
+.btn > .txt {
+    letter-spacing: normal;
+    padding: 0.8rem 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    margin: 2rem 0rem;
+    /* width: 100%; */
+    /* background-color: #878787; */
+}
+
+.formitem {
+    display: inline-flex;
+    margin: 10px auto;
+    border: 1px solid #878787;
+    background-color: transparent;
+    border-radius: 3px;
+    inline-size: 100%;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    padding: 1rem 1rem;
+}
+
+.submit {
+    margin: 15px auto;
+    border: 1px solid #878787;
+    background-color: #1ed760;
+    border-radius: 500px;
+    text-align: center;
+    inline-size: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+    padding: 1rem 1rem;
+}
+
+.submit:hover {
+    background-color: #1bc657;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+.formtxt {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+.forget, .signup {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    font-size: small;
+    font-weight: 500;
+}
+
+.forget > a, .signup > a{
+    color: white;
+}
+
+.signup > span {
+    color: #a7a7a7;
+}
+
+.hvr:hover {
+    color: #1ed760;
+}
+
+
+/* --------------------------------Footer----------------------------------------- */
+footer {
+    text-align: center;
+    color: #a7a7a7;
+    padding: 2rem;
+    background-color: #121212;
+    font-size: 0.6875rem;
+}
+footer > span > a {
+    color: #a7a7a7;
+}

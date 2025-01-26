@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Spotify</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" href="assets/login-favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div>
+            <img src="assets/login-logo.png" alt="Spotify" class="navlogo">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="main">
+            <section class="continuebtn">
+                <h1>Log in to Spotify</h1>
+                <button class="btn">
+                    <span class="google"></span><span class="txt"  onclick="window.open('index.html', '_self')">Continue with Google</span>
+                </button>
+                <button class="btn">
+                    <span class="fb"></span><span class="txt" onclick="window.open('index.html', '_self')">Continue with Facebook</span>
+                </button>
+                <button class="btn">
+                    <span class="apple"></span><span class="txt" onclick="window.open('index.html', '_self')">Continue with Apple</span>
+                </button>
+                <button class="btn">
+                    <span class="phnum"></span><span class="txt" onclick="window.open('index.html', '_self')">Continue with phone number</span>
+                </button>
+
+                <hr>
+
+                <div class="formtxt">
+                    <label for="usern"><span>Email or username</span></label>
+                </div>
+                <input type="text" name="usern" id="username" class="formitem" placeholder="Email or username" required>
+                <div class="formtxt">
+                    <label for="passw"><span>Password</span></label>
+                </div>
+                <input type="password" name="passw" id="password" placeholder="Password" class="formitem" required >
+                <input type="button" value="Log in" class="submit" onclick="window.open('index.html', '_self')">
+
+                <div class="forget">
+                    <a href="" class="hvr">Forget your password?</a>
+                </div>
+
+                <hr>
+
+                <div class="signup">
+                    <span>Don't have an account? &nbsp;</span><a href="signup.html" class="hvr">Sign up for Spotify</a>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <span>
+            This site is protected by reCAPTCHA and the Google <a href="">Privacy Policy</a> and <a href="">Terms of Service</a> apply.
+        </span>
+    </footer>
+</body>
+
+</html>
